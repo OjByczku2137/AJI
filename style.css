@@ -168,14 +168,42 @@ li{
 }
 @media only screen and (max-width: 1100px) {
     header {
-      color: blue;
+      font-size: 5vw;
+    }
+    #desc1{
+        font-size: 2vw;
+    }
+    #intro-button{
+        font-size: 2vw;
+        padding: 1%;
+    }
+    #nav-blocks{
+        padding: 0;
+        padding-top: 5vh;
     }
     #first{
         margin-left: 60vw;
     }
   }
   @media only screen and (max-width: 750px){
+    header {
+      font-size: 5vw;
+    }
+    #desc1{
+        font-size: 2vw;
+    }
+    #intro-button{
+        font-size: 2vw;
+        padding: 1%;
+    }
+    #intro-button:hover{
+        transform: translateX(7px) translateY(7px);
+    }
+    #nav-blocks{
+        padding: 0;
+        padding-top: 5vh;
+    }
     #first{
-        margin-left: 45vw;
+        margin-left: 55vw;
     }
   }
