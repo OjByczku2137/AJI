@@ -115,7 +115,6 @@ header{
     border-radius: 15px;
     color: #EAE7DC;
     transition: ease-in-out 0.2s;
-    
 }
 #nav-button:hover{
     background-color: #6d6c69;
@@ -153,7 +152,7 @@ li{
 }
 
 #first{
-    margin-left: 70vw;
+    margin-left: 75vw;
 }
 
 #nav-bar a{
@@ -182,7 +181,13 @@ li{
         padding-top: 5vh;
     }
     #first{
-        margin-left: 60vw;
+        margin-left: 70vw;
+    }
+    #calculator-block, #pomodoro-block, #gpa-block, #todo-block{
+        height: 35vh;
+    }
+    #nav-button{
+        font-size: 90%;
     }
   }
   @media only screen and (max-width: 750px){
@@ -204,6 +209,12 @@ li{
         padding-top: 5vh;
     }
     #first{
-        margin-left: 55vw;
+        margin-left: 60vw;
+    }
+    #calculator-block, #pomodoro-block, #gpa-block, #todo-block{
+        height: 45vh;
+    }
+    #nav-button{
+        font-size: 70%;
     }
   }
